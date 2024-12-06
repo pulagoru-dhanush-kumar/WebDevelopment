@@ -1,3 +1,11 @@
+//variable are-let ,const ,var
+//var is used in the older version of js and the scope is global and it is hoisted redeclaring is possible
+//after 2015 let keyword used to declare the variables and their scope is local that means its used inside block and it is not hoisted and redeclaration is not possible.
+//const is a keyword used to initialize the value that cannot be changed in the further .We must and should have to give the value at the time of declaration and it is also not hoisted 
+//const is used for arrays and objects but you cannot change reference but you can modify only elements inside array or Object.Const scope is  local  i.e block space 
+
+
+
 //How do you create an object car with properties like brand, model, and year and access them to print their values?
 let car = {
     brand: "Toyota",
